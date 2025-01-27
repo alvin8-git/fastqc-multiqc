@@ -1,0 +1,2 @@
+[2025-01-27 08:04:55,075] multiqc.core.file_search                           [INFO   ]  Search path: /data/fastqc_results
+[2025-01-27 08:04:55,870] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 20 reports

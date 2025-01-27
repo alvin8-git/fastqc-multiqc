@@ -1,0 +1,21 @@
+Sample	Filename	File type	Encoding	Total Sequences	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	avg_sequence_length	median_sequence_length	basic_statistics	per_base_sequence_quality	per_sequence_quality_scores	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+E200007305_L01_102_1	E200007305_L01_102_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	41.0	99.958	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_102_2	E200007305_L01_102_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	41.0	99.944	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_13_1	E200007305_L01_13_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.888	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_13_2	E200007305_L01_13_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.914	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_14_1	E200007305_L01_14_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.924	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_14_2	E200007305_L01_14_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.919	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_15_1	E200007305_L01_15_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.90400000000001	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_15_2	E200007305_L01_15_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.926	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_16_1	E200007305_L01_16_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.897	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_16_2	E200007305_L01_16_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.911	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_1_1	E200007305_L01_1_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.917	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_1_2	E200007305_L01_1_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.887	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_2_1	E200007305_L01_2_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.919	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_2_2	E200007305_L01_2_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.908	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_3_1	E200007305_L01_3_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.898	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_3_2	E200007305_L01_3_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.874	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_4_1	E200007305_L01_4_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.92	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_4_2	E200007305_L01_4_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	40.0	99.909	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_97_1	E200007305_L01_97_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	41.0	99.943	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
+E200007305_L01_97_2	E200007305_L01_97_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	100000.0	0.0	150.0	41.0	99.94	150.0	150	pass	pass	pass	warn	warn	pass	pass	pass	pass	pass
