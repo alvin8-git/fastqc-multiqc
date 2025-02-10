@@ -8,8 +8,24 @@ RUN apt-get update && \
     python3-pip \
     && rm -rf /var/lib/apt/lists/*
 
-# Install MultiQC
+# Install MultiQC using pip3
 RUN pip3 install multiqc
+
+# Set environment variable to ensure PATH includes /usr/local/bin
+ENV PATH="/usr/local/bin:${PATH}"
+
+# Create a non-root user
+RUN useradd -ms /bin/bash fastqcuser
+
+# Set working directory and permissions
+WORKDIR /app
+COPY run_fastqc_multiqc.py /app/
+
+# Set proper permissions
+RUN chown -R fastqcuser:fastqcuser /app
+
+# Switch to non-root user
+USER fastqcuser
 
 # Copy script
 COPY run_fastqc_multiqc.py /usr/local/bin/
@@ -18,4 +34,3 @@ COPY run_fastqc_multiqc.py /usr/local/bin/
 WORKDIR /data
 
 ENTRYPOINT ["python3", "/usr/local/bin/run_fastqc_multiqc.py"]
-
