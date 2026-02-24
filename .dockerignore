@@ -1,0 +1,14 @@
+__pycache__
+*.pyc
+*.pyo
+.git
+.gitignore
+*.md
+!README.md
+test/
+test_data/
+*.fq.gz
+Dockerfile
+.dockerignore
+Makefile
+requirements.txt

@@ -1,0 +1,35 @@
+[project]
+name = "fastqc-multiqc"
+version = "1.0.0"
+description = "Docker-based bioinformatics pipeline for FastQC and MultiQC"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "multiqc",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-mock",
+    "pylint",
+]
+
+[project.scripts]
+fastqc-multiqc = "run_fastqc_multiqc:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+
+[tool.pylint.messages_control]
+max-line-length = 100
+disable = ["C0111", "C0103"]
+
+[tool.pylint.format]
+max-line-length = 100

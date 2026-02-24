@@ -1,0 +1,4 @@
+multiqc
+pytest
+pytest-mock
+pylint
